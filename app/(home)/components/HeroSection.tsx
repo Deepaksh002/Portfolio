@@ -8,20 +8,20 @@ export default function HeroSection() {
     <div className='min-h-[85vh] flex flex-col-reverse gap-15 lg:gap-0 lg:flex-row items-center justify-between'>
       <div className='space-y-10 text-center lg:text-left'>
         <h1 className='text-4xl lg:text-7xl font-bold space-z-3'>Nice to meet you!
-        <br /> <span className='underline underline-offset-8 decoration-green-500'>{"I'm Rishabh"}</span>
+        <br /> <span className='underline underline-offset-8 decoration-green-500'>{"I'm Deepak Sharma"}</span>
         </h1>
         <p className='md:w-96 text-gray-300'>
             {
-                "I'm a Full stack developer, currently pursuing a B.Tech in Information Technology from IIIT Bhopal, maintaining a solid CGPA of 8.43.  I have a strong foundation in C++ , I have a strong grasp on my coursework like OOPs, DBMS , Computer Networks , and am skilled in technologies like Node.js, Express.js, Next.js, React.js, and MongoDB. , which I extensively utilize for software development."
+                "I'm a Full stack developer, currently pursuing a B.Tech in ECE from IIIT Bhopal.I have a strong foundation in C++ , I have a strong grasp on my coursework like OOPs, DBMS , Computer Networks , and am skilled in technologies like Node.js, Express.js, Next.js, React.js, and MongoDB. , which I extensively utilize for software development."
             }
         </p>
         <div>
-                <a href="mailto:rshbh226@gmail.com" className='inline-block group' target="_blank" rel="noopener noreferrer">
+                <a href="mailto:deepaksh0528@gmail.com" className='inline-block group' target="_blank" rel="noopener noreferrer">
                     <Title text="Contact Me🌐" />
                 </a>
             </div>
             <div>
-                <a href="https://drive.google.com/file/d/1RETf_JU9z180lBlei3Y1x4Vk4wzUSlYc/view?usp=sharing" className='inline-block group' target="_blank" rel="noopener noreferrer">
+                <a href="https://drive.google.com/file/d/1scz2dT53iQSQYl4QF87RSGinW2H9Zk2s/view?usp=drive_link" className='inline-block group' target="_blank" rel="noopener noreferrer">
                     <Title text="Resume " />
                 </a>
             </div>
