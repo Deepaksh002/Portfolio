@@ -7,25 +7,25 @@ export default function Navbar({className}:{className?:string}){
 
     const socials = [
         {
-            Link:"https://www.linkedin.com/in/rishabh-soni-9a42141ba/",
+            Link:"https://www.linkedin.com/in/deepak-sharma-0133a1213/",
             Label: "Linkedin",
             Icon: SiLinkedin
 
         },
         {
-            Link:"https://github.com/RishabhSoni01/",
+            Link:"https://github.com/Deepaksh002",
             Label: "Github",
             Icon: SiGithub
         },
         {
-            Link:"https://www.linkedin.com/in/rishabh-soni-9a42141ba/",
+            Link:"https://twitter.com/Deepaks34049056?t=46Fg33vgTgnFz_Ztds10lg&s=09",
             Label: "Twitter",
             Icon: SiX
         }
     ]
   return (
     <nav className={cn('py-10 flex justify-between items-center',className)}>
-        <h1 className='text-2xl font-bold underline underline-offset-8 decoration-green-500'>Rishabh 👨🏻‍💻</h1>
+        <h1 className='text-2xl font-bold underline underline-offset-8 decoration-green-500'>Deepak 👨🏻‍💻</h1>
         <div className="flex items-center gap-5">
             {socials.map((social,index)=>{
                 const Icon=social.Icon
