@@ -9,14 +9,14 @@ import { cn } from '@/lib/utils'
 export default function Projects() {
     const projects=[
         {
-            title:"E-shop",
-            tech:[SiReact, SiNodedotjs, SiExpress,SiMongodb, SiRedux],
+            title:"Real-Estate",
+            tech:[SiReact, SiFirebase, SiRedux],
             link:"https://main--eshopwebsiteforshop.netlify.app/",
             cover:"/project-4.png",
             background:"bg-indigo-500"
         },
         {
-            title:"Link-up",
+            title:"Blog-App",
             tech:[SiReact, SiNodedotjs, SiExpress,SiMongodb, SiRedux],
             link:"https://64e2354c59ca5776a15fc558--relaxed-llama-11d686.netlify.app/",
             cover:"/project-5.png",
@@ -24,13 +24,13 @@ export default function Projects() {
         },
         {
             title:"Chatroom",
-            tech:[SiReact, SiNodedotjs, SiExpress,SiMongodb, SiRedux, SiSocketdotio],
+            tech:[SiReact, SiFirebase, SiRedux, SiSocketdotio],
             link:"https://chatroom-0glw.onrender.com/",
             cover:"/project-3.png",
             background:"bg-indigo-500"
         },
         {
-            title:"SimplyNote",
+            title:"Expense-tracker",
             tech:[SiReact, SiNodedotjs, SiExpress,SiMongodb, SiRedux],
             link:"https://simplynote.onrender.com/",
             cover:"/project-6.png",
